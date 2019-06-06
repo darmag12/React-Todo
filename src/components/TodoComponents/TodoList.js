@@ -22,7 +22,7 @@ import './Todo.css';
         return (
             <div style={this.getStyle()}>
                 <p>
-                <input type='checkbox' onChange={this.props.markComplete.bind(this, this.props.propTodo.id)}/> {this.props.propTodo.title}
+                <input className="checkbox" type='checkbox' onChange={this.props.markComplete.bind(this, this.props.propTodo.id)}/> {this.props.propTodo.title}
                 <button onClick={this.props.delTodo.bind(this, this.props.propTodo.id)} className='btn-style'>x</button>
                 </p>
             </div>

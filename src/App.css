@@ -9,6 +9,11 @@
 body{
     /* font-family: */
     line-height: 1.4;
+    background-image: url('./components/TodoComponents/img/overlay.png'), url('./components/TodoComponents/img/attractive-backdrop-background-988872.jpg');
+    background-repeat: repeat, no-repeat;
+	background-size: auto, 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Jockey One', sans-serif;
 }
 
 a{

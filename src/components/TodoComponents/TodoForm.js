@@ -4,12 +4,21 @@ import React, { Component } from 'react'
      state = {
          title: ''
      }
+
+     onSubmit = (e) => {
+         e.preventDefault();
+         this.props.addTodo(this.state.title);
+         this.setState({title: ''});
+         if(this.state.title===''){
+            return alert(`You have added an empty task dude, come on let's be productive here`);
+        }
+     }
      onChange = (e) =>{
          this.setState({ title: e.target.value })
      }
     render() {
         return (
-            <form className='form'>
+            <form onSubmit={this.onSubmit}className='form'>
                 <input
              type='text'
              name='title'
