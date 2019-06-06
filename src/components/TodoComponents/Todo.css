@@ -1,0 +1,31 @@
+/* todo styles start here */
+
+.btn-style{
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+.form{
+    display: flex;
+}
+.submit-btn{
+    flex: 1;
+    display: inline-block;
+    border: none;
+    background: #555555;
+    color: #ffffff;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background: #666666;
+}
+.input-text{
+    flex: 10;
+    padding: 5px;
+}
