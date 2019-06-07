@@ -1,7 +1,9 @@
 /* header styles start here */
 .header{
+    width: 100%;
     background: #333333;
     color: #ffffff;
     text-align: center;
     padding: 10px;
+
 }

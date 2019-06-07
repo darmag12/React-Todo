@@ -7,11 +7,11 @@ import React, { Component } from 'react'
 
      onSubmit = (e) => {
          e.preventDefault();
-         this.props.addTodo(this.state.title);
-         this.setState({title: ''});
          if(this.state.title===''){
             return alert(`You have added an empty task dude, come on let's be productive here`);
         }
+         this.props.addTodo(this.state.title);
+         this.setState({title: ''});
      }
      onChange = (e) =>{
          this.setState({ title: e.target.value })

@@ -15,6 +15,7 @@
 
 .form{
     display: flex;
+    width: 100%;
 }
 .submit-btn{
     flex: 1;
